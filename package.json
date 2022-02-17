@@ -1,0 +1,17 @@
+{
+  "name": "hiper",
+  "version": "1.0.0",
+  "description": "High Performance template for 11ty static site generator",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --incremental --serve"
+  },
+  "keywords": [
+    "11ty"
+  ],
+  "author": "Atul Patel",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}

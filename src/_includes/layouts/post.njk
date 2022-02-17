@@ -1,0 +1,10 @@
+{% extends "layouts/base.njk" %}
+{% block content %}
+    <header>
+        {% include "partials/site-nav.njk" %}
+    </header>
+    <main>
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+    </main>
+{% endblock %}

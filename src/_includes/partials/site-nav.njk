@@ -1,0 +1,9 @@
+<nav class="site-nav">
+  <ul class="nav__list">
+    {% for item in collections.pages %}
+    <li class="nav__list-item">
+      <a class="nav__link" href="{{ item.url }}">{{ item.data.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
